@@ -19,22 +19,7 @@ func main() {
 
 	flag.Parse()
 
-	if *userPtr == "" {
-		flag.PrintDefaults()
-		os.Exit(1)
-	}
-
-	if *orgPtr == "" {
-		flag.PrintDefaults()
-		os.Exit(1)
-	}
-
-	if *repoPtr == "" {
-		flag.PrintDefaults()
-		os.Exit(1)
-	}
-
-	if *tokenPtr == "" {
+	if *userPtr == "" || *orgPtr == "" || *repoPtr == "" || *tokenPtr == "" {
 		flag.PrintDefaults()
 		os.Exit(1)
 	}

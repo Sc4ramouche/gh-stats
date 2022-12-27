@@ -25,4 +25,4 @@ So I wanted to have a little tool that would help me see how many lines of code 
 * Basic array functionality is not present by default. So if you need to filter an array, you'd either need to compose a custom function, or use something third-party.
    * Stack Overflow example: [link](https://stackoverflow.com/questions/37562873/most-idiomatic-way-to-select-elements-from-an-array-in-golang)
    * Generally curious why it's this way. Naive guess is that it might somehow optimise compiled executable, as you'd really only include the code you would use in your package. Will ask my golang colleagues about that.
-   * Built-in [flag](https://pkg.go.dev/flag) package is superb!
+* Built-in [flag](https://pkg.go.dev/flag) package is superb!
