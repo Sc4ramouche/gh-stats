@@ -17,6 +17,7 @@ So I wanted to have a little tool that would help me see how many lines of code 
 ### What I've learned
 
 * Github API is quite powerful.
+   * Although there are some limitations. Initially I expected that I'd be able to easily fetch something like "all commits made by me in this org", but those were naive expectations as I realise now how much work would that require on the GitHub API side.
 * Golang type system appears to be very powerful. It was quite easy to navigate types around and what APIs are available to me.
 * [go-github](https://github.com/google/go-github) is very nicely crafted. 
    * There are many great [examples](https://github.com/google/go-github/tree/master/example) in the repo that helped me to get started.
@@ -26,3 +27,4 @@ So I wanted to have a little tool that would help me see how many lines of code 
    * Stack Overflow example: [link](https://stackoverflow.com/questions/37562873/most-idiomatic-way-to-select-elements-from-an-array-in-golang)
    * Generally curious why it's this way. Naive guess is that it might somehow optimise compiled executable, as you'd really only include the code you would use in your package. Will ask my golang colleagues about that.
 * Built-in [flag](https://pkg.go.dev/flag) package is superb!
+* It's funny how much of code you produce while you try things out, but when you are ready to publish you trim everything and the source code looks so simple compared to the time/effort invested. Duh!
